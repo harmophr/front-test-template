@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# 環境構築など
+## インストールする
+`yarn` or `npm i`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 起動する
+`yarn start` or `npm run start`
 
-## Available Scripts
+## 静的解析を使用する
+`yarn fix` or `npm run fix`
 
-In the project directory, you can run:
+# テストでの提出について
+1. track上での作業
+index.htmlについて下記に修正をしてください。
+```html
+<html lang="ja">
+  <head>
+    <title>メモアプリ</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script defer src="index.js"></script>
+  </body>
+</html>
+```
 
-### `npm start`
+2. ビルドする
+`yarn build` or `npm run build`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. buildされたファイルをtrack上にコピーする
+ビルド後に`static`ディレクトリ配下に生成される<br>
+`css/main.xxxxxxxx.css` を `style.css`に<br>
+`js/main.xxxxxxxx.js` を `index.js`にコピーしてください。
