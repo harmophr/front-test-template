@@ -8,9 +8,9 @@
 ## 静的解析を使用する
 `yarn fix` or `npm run fix`
 
-# テストでの提出について
+# trackでの動作確認・テストについて
 1. track上での作業
-index.htmlについて下記に修正をしてください。
+index.htmlを下記に修正してください。
 ```html
 <html lang="ja">
   <head>
@@ -26,7 +26,7 @@ index.htmlについて下記に修正をしてください。
 </html>
 ```
 
-2. ビルドする
+2. ローカルマシンでビルドする
 `yarn build` or `npm run build`
 
 3. buildされたファイルをtrack上にコピーする
