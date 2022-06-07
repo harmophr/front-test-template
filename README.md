@@ -33,3 +33,6 @@ index.htmlを下記に修正してください。
 ビルド後に`static`ディレクトリ配下に生成される<br>
 `css/main.xxxxxxxx.css` を `style.css`に<br>
 `js/main.xxxxxxxx.js` を `index.js`にコピーしてください。
+
+# ソースコードについて
+`branch_name`でpush後、教えてください
