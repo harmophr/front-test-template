@@ -9,7 +9,7 @@
 `yarn fix` or `npm run fix`
 
 # trackでの動作確認・テストについて
-1. track上での作業
+1. track上での作業<br>
 index.htmlを下記に修正してください。
 ```html
 <html lang="ja">
@@ -26,13 +26,13 @@ index.htmlを下記に修正してください。
 </html>
 ```
 
-2. ローカルマシンでビルドする
+2. ローカルマシンでビルドする<br>
 `yarn build` or `npm run build`
 
-3. buildされたファイルをtrack上にコピーする
+3. buildされたファイルをtrack上にコピーする<br>
 ビルド後に`static`ディレクトリ配下に生成される<br>
 `css/main.xxxxxxxx.css` を `style.css`に<br>
 `js/main.xxxxxxxx.js` を `index.js`にコピーしてください。
 
-# ソースコードについて
-`branch_name`でpush後、教えてください
+# ソースコードについて<br>
+個人の名前などが特定されないブランチ名でpush後、テスト後のFBにブランチ名を教えてください
